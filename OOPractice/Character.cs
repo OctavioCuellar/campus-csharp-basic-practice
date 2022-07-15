@@ -21,14 +21,14 @@ namespace OOPractice
             ClassName = className;
         }
 
-        public string Attack(string characterName, string className)
+        public void Attack()
         {
-            return($"{ClassName} {CharacterName}: Hace un ataque!");
+            Console.WriteLine($"{ClassName} {CharacterName}: Hace un ataque!");
         }
 
-        public string Parry(string characterName, string className)
+        public void Parry()
         {
-            return($"{ClassName} {CharacterName}: Ha parado un ataque!");
+            Console.WriteLine($"{ClassName} {CharacterName}: Ha parado un ataque!");
         }
 
     }

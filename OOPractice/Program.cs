@@ -13,10 +13,11 @@ namespace OOPractice
             Console.WriteLine(CharSample.CharacterName);
             Console.WriteLine(CharHero.ClassName);
 
-            // Esto no deberia ser asi
-            Console.WriteLine(CharSample.Attack("John Doe", "Oficinista"));
-            Console.WriteLine(CharSample.Parry("John Doe", "Oficinista"));
-            Console.WriteLine(CharHero.CastBuff("Great John", "Paladín"));
+            CharSample.Attack();
+            CharHero.Attack();
+            CharSample.Parry();
+            CharHero.Parry();
+            CharHero.CastBuff();
 
             Console.ReadKey();
 

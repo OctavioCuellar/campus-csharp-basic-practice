@@ -17,9 +17,9 @@ namespace OOPractice
             ClassName = className;
         }
 
-        public string CastBuff(string characterName, string className)
+        public void CastBuff()
         {
-            return($"{ClassName} {CharacterName}: Ha lanzado un buff!");
+            Console.WriteLine($"{ClassName} {CharacterName}: Ha lanzado un buff!");
         }
 
     }
